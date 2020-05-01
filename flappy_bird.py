@@ -13,7 +13,7 @@ BACKGROUND = pygame.transform.scale2x(
 
 
 def draw_win(win):
-    win.vlit(BACKGROUND, (0, 0))
+    win.blit(BACKGROUND, (0, 0))
     pygame.display.update()
 
 
